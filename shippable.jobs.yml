@@ -7,7 +7,6 @@ jobs:
       - TASK:
         - script: ls
         - script: echo "ran ls 1234"
-        - script: pwd
     on_success:
       - NOTIFY: notification-slack
   
