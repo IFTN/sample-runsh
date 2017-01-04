@@ -11,3 +11,9 @@ resources:
     pointer:
       recipients:
         - "#test_interns"
+  - name: time
+    type: time
+    seed:
+        interval: "*/1 * * * *"
+    flags:
+        - time
