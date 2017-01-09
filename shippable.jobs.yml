@@ -9,8 +9,3 @@ jobs:
         - script: echo "ran ls 1234"
     on_success:
       - NOTIFY: notification-slack
-  - name: jenkins
-    type: jenkinsJob
-    integration: "jenkins"
-    pointer:
-      sourceName: "abc"
