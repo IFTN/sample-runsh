@@ -13,4 +13,4 @@ jobs:
     type: jenkinsJob
     integration: "jenkins"
     pointer:
-      - sourceName: "abc"
+      sourceName: "abc"
