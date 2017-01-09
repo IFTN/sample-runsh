@@ -11,6 +11,6 @@ jobs:
       - NOTIFY: notification-slack
   - name: jenkins
     type: jenkinsJob
-    integration: jenkins
+    integration: "jenkins"
     pointer:
-      - sourceName: script-1
+      - sourceName: "abc"
