@@ -9,3 +9,11 @@ jobs:
         - script: echo "ran ls 1234"
     on_success:
       - NOTIFY: notification-slack
+  - name: dv-man-versionName
+    type: manifest
+    steps:
+      - IN: dv-image
+        pull: false
+        versionName: latest
+    always:
+      - NOTIFY: notification-slack
